@@ -1,10 +1,7 @@
 <template>
   <div>
     <!-- Nav bar -->
-    <nav
-      class="navbar navbar-dark justify-content-between flex-nowrap flex-row"
-      style="background-color: #4db6ac"
-    >
+    <nav class="navbar navbar-dark" style="background-color: #4db6ac">
       <div class="container-fluid content-heading">
         <router-link
           @click="logout"
@@ -12,6 +9,7 @@
           class="navbar-brand float-left fw-bold fs-2 text-align: center;"
         >
           <img
+            class="imgHead"
             src="./image/logopanya.png"
             width="50"
             height="45"
@@ -208,7 +206,7 @@
   padding: 0.75rem 1.5rem;
   margin-left: 2px;
   margin-right: 2px;
-  padding: 0.6em 2em;
+  padding: 0.6rem 2rem;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   font-weight: 550;
@@ -289,7 +287,8 @@
   .button3 {
     letter-spacing: 0px;
     font-size: 7px;
-    padding: 0.5rem 1.5rem;
+    padding: 0.4rem 1rem;
+    margin-left: 0;
   }
   .button2 {
     letter-spacing: 0px;
@@ -299,6 +298,10 @@
   }
   .menu {
     grid-template-columns: 1fr;
+  }
+  .imgHead {
+    width: 0;
+    height: 0;
   }
 }
 </style>
