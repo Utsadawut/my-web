@@ -483,13 +483,13 @@
     width: 50px;
     height: 70px;
   }
-  .box2 {
-    width: 250px;
-    height: 50px;
+    .box2 {
+    width: 300px;
+    height: 60px;
   }
   .box3 {
-    width: 150px;
-    height: 50px;
+    width: 270px;
+    height: 60px;
   }
   .card {
     justify-items: center;
@@ -499,7 +499,7 @@
     align-items: center;
   }
   .card2 {
-    height: 125%;
+    height: 70%;
   }
   .flip-card {
     width: 150px;
@@ -514,18 +514,18 @@
     font-size: 1.6rem;
   }
 }
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1024px) {
   .box {
     width: 50px;
     height: 70px;
   }
   .box2 {
-    width: 250px;
-    height: 50px;
+    width: 300px;
+    height: 60px;
   }
   .box3 {
-    width: 150px;
-    height: 50px;
+    width: 270px;
+    height: 60px;
   }
   .card {
     justify-items: center;
