@@ -211,6 +211,7 @@ select {
 }
 
 @media only screen and (max-width: 480px) {
+
   .submit {
   line-height: 1rem;
   font-weight: 500;

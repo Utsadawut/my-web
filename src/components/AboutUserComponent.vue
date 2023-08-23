@@ -22,9 +22,15 @@
         </router-link>
       </ul>
     </div>
+    <div class="card3 position-absolute start-0"></div>
   </div>
 </template>
 <style scoped>
+.card3 {
+  width: 100%;
+  height: 100px;
+  transition: 0.2s ease-in-out;
+}
 .button:hover {
   box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
   color: #fff;
@@ -43,7 +49,6 @@
   padding: 0.5rem 1.5rem;
   background-color: #26a69a;
   color: #ffffff;
-  letter-spacing: 2px;
   font-size: 0.8rem;
   font-weight: 700;
   text-align: center;
@@ -72,6 +77,26 @@
 li {
   font-size: 1.5rem;
   margin-left: 1.5rem;
+}
+
+
+@media only screen and (max-width: 480px) {
+  li{
+    font-size: 0.5rem;
+  }
+  .nameText{
+    font-size: 0.5rem;
+  }
+  .headText2,.headText{
+    font-size: 1rem;
+  }
+
+  .button {
+  font-size: 0.5rem;
+  line-height: 1rem;
+  font-weight: 500;
+  width: 30%;
+}
 }
 </style>
 <script>

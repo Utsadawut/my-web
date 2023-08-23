@@ -114,7 +114,6 @@
   padding: 0.5rem 1.5rem;
   background-color: #26a69a;
   color: #ffffff;
-  letter-spacing: 2px;
   font-size: 0.8rem;
   font-weight: 700;
   text-align: center;
