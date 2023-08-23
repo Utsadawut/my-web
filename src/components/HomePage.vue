@@ -478,7 +478,43 @@
 }
 
 /***************** #content ******************/
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1366px) {
+  .box {
+    width: 50px;
+    height: 70px;
+  }
+  .box2 {
+    width: 250px;
+    height: 50px;
+  }
+  .box3 {
+    width: 150px;
+    height: 50px;
+  }
+  .card {
+    justify-items: center;
+    margin-left: 7px;
+    margin-right: 7px;
+    font-size: 15px;
+    align-items: center;
+  }
+  .card2 {
+    height: 125%;
+  }
+  .flip-card {
+    width: 150px;
+    height: 220px;
+    margin-bottom: 4px;
+    align-items: center;
+  }
+    .textHard {
+    font-size: 2.2rem;
+  }
+  .testTille {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 1025px) {
   .box {
     width: 50px;
     height: 70px;
