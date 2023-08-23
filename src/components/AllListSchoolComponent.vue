@@ -61,7 +61,7 @@ export default {
     };
   },
   created() {
-    let apiURL = "http://localhost:4000/listSchool";
+    let apiURL = "https://backend-vue-web.vercel.app/listSchool";
     axios
       .get(apiURL)
       .then((res) => {
