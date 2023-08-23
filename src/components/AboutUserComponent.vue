@@ -22,7 +22,6 @@
         </router-link>
       </ul>
     </div>
-    <div class="card3 position-absolute start-0"></div>
   </div>
 </template>
 <style scoped>
