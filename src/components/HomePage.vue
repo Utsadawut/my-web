@@ -535,7 +535,7 @@
     align-items: center;
   }
   .card2 {
-    height: 125%;
+    height: 70%;
   }
   .flip-card {
     width: 150px;
