@@ -214,4 +214,13 @@ select {
 .signup-link a {
   text-decoration: underline;
 }
+
+
+@media only screen and (max-width: 480px) {
+  .submit {
+  line-height: 1rem;
+  font-weight: 500;
+  width: 30%;
+}
+}
 </style>
