@@ -88,7 +88,7 @@ export default {
     };
   },
   created() {
-    let apiURL = "http://localhost:4000/user";
+    let apiURL = "https://backend-vue-web.vercel.app/user";
     axios
       .get(apiURL)
       .then((res) => {

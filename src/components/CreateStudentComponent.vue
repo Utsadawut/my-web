@@ -77,7 +77,7 @@ export default {
     };
   },
   created() {
-    let apiURL = "http://localhost:4000/listSchool";
+    let apiURL = "https://backend-vue-web.vercel.app/listSchool";
     axios
       .get(apiURL)
       .then((res) => {
@@ -89,7 +89,7 @@ export default {
   },
   methods: {
     handleSubmitForm() {
-      let apiURL = "http://localhost:4000/students/create-student";
+      let apiURL = "https://backend-vue-web.vercel.app/students/create-student";
 
       axios
         .post(apiURL, this.students)

@@ -59,7 +59,7 @@ export default {
   },
   methods: {
     handleSubmitForm() {
-      let apiURL = "http://localhost:4000/listSchool/listSchool-register";
+      let apiURL = "https://backend-vue-web.vercel.app/listSchool/listSchool-register";
 
       axios
         .post(apiURL, this.listSchool)

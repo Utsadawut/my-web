@@ -45,14 +45,14 @@ export default {
         }
     },
     created() {
-        let apiURL = `http://localhost:4000/listSchool/edit-listSchool/${this.$route.params.id}`;
+        let apiURL = `https://backend-vue-web.vercel.app/listSchool/edit-listSchool/${this.$route.params.id}`;
         axios.get(apiURL).then((res) => {
             this.listSchool = res.data
         })
     },
     methods: {
         handleUpdateForm() {
-            let apiURL = `http://localhost:4000/listSchool/update-listSchool/${this.$route.params.id}`;
+            let apiURL = `https://backend-vue-web.vercel.app/listSchool/update-listSchool/${this.$route.params.id}`;
 
             axios.put(apiURL, this.listSchool).then((res) => {
                 console.log(res);

@@ -60,7 +60,7 @@ export default {
       const axios = require("axios");
 
       axios
-        .get("http://localhost:4000/user/checkuser", {
+        .get("https://backend-vue-web.vercel.app/user/checkuser", {
           params: {
             username: this.users.username,
             password: this.users.password,
@@ -85,7 +85,7 @@ export default {
         });
     },
     created() {
-      let apiURL = "http://localhost:4000/user";
+      let apiURL = "https://backend-vue-web.vercel.app/user";
       axios
         .get(apiURL)
         .then((res) => {

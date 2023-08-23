@@ -49,7 +49,7 @@ export default {
     };
   },
   created() {
-    let apiURL = "http://localhost:4000/listSchool";
+    let apiURL = "https://backend-vue-web.vercel.app/listSchool";
     axios
       .get(apiURL)
       .then((res) => {
@@ -61,7 +61,7 @@ export default {
   },
   methods: {
     deleteStudent(id) {
-      let apiURL = `http://localhost:4000/listSchool/delete-listSchool/${id}`;
+      let apiURL = `https://backend-vue-web.vercel.app/listSchool/delete-listSchool/${id}`;
       let indexOfArrayItem = this.listSchools.findIndex((i) => i._id === id);
 
       if (window.confirm("คุณต้องการลบรายชื่อนี้?")) {

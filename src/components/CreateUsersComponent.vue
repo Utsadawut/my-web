@@ -75,7 +75,7 @@ export default {
   },
   methods: {
     handleSubmitForm() {
-      let apiURL = "http://localhost:4000/user/register";
+      let apiURL = "https://backend-vue-web.vercel.app/user/register";
 
       axios
         .post(apiURL, this.users)

@@ -101,14 +101,14 @@ export default {
         }
     },
     created() {
-        let apiURL = `http://localhost:4000/user/edit-user/${this.$route.params.id}`;
+        let apiURL = `https://backend-vue-web.vercel.app/user/edit-user/${this.$route.params.id}`;
         axios.get(apiURL).then((res) => {
             this.users = res.data
         })
     },
     methods: {
         handleUpdateForm() {
-            let apiURL = `http://localhost:4000/user/update-user/${this.$route.params.id}`;
+            let apiURL = `https://backend-vue-web.vercel.app/user/update-user/${this.$route.params.id}`;
 
             axios.put(apiURL, this.users).then((res) => {
                 console.log(res);

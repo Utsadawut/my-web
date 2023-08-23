@@ -66,7 +66,7 @@ export default {
   },
   methods: {
     deleteStudent(id) {
-      let apiURL = `http://localhost:4000/api/delete-student/${id}`;
+      let apiURL = `https://backend-vue-web.vercel.app/api/delete-student/${id}`;
       let indexOfArrayItem = this.Students.findIndex((i) => i._id === id);
 
       if (window.confirm("Do you really want to delete?")) {
