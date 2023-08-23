@@ -5,6 +5,8 @@
         <p class="form-title">เข้าสู่ระบบ</p>
         <div class="input-container">
           <input
+          id="inputPassword5"
+          class="form-control"
             v-model="users.username"
             required
             placeholder="Username"
@@ -101,7 +103,7 @@ export default {
   background-color: #fff;
   display: block;
   padding: 2rem;
-  max-width: 700px;
+  max-width: 100%;
   border-radius: 0.5rem;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -134,7 +136,7 @@ select {
   padding-right: 3rem;
   font-size: 1rem;
   line-height: 1.25rem;
-  width: 600px;
+  width: 100%;
   border-radius: 0.5rem;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
@@ -191,5 +193,14 @@ button:hover {
 }
 button:active {
   transform: translateY(-1px);
+}
+
+
+@media only screen and (max-width: 480px) {
+  .submit {
+  line-height: 1rem;
+  font-weight: 500;
+  width: 30%;
+}
 }
 </style>

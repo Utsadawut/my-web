@@ -149,7 +149,7 @@ select {
   padding-right: 3rem;
   font-size: 1rem;
   line-height: 1.25rem;
-  width: 600px;
+  width: 100%;
   border-radius: 0.5rem;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
@@ -196,5 +196,14 @@ select {
 
 .signup-link a {
   text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .submit {
+  line-height: 1rem;
+  font-weight: 500;
+  width: 30%;
+}
 }
 </style>
