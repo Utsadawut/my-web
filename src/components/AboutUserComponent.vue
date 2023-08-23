@@ -82,10 +82,10 @@ li {
 
 @media only screen and (max-width: 480px) {
   li{
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
   .nameText{
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
   .headText2,.headText{
     font-size: 1rem;
