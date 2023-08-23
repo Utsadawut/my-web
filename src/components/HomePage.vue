@@ -207,7 +207,6 @@
           </div>
         </div>
         <div class="card3 position-absolute start-0"></div>
-        <div class="card4 position-absolute start-0"></div>
       </div>
     </div>
   </div>
@@ -247,19 +246,7 @@
 }
 .card3 {
   width: 100%;
-  height: 200px;
-  border-top-right-radius: 70px;
-  border-bottom-right-radius: 70px;
-  box-shadow: 5px 5px 10px #bebebe;
-  transition: 0.2s ease-in-out;
-}
-.card3 {
-  width: 100%;
-  height: 50px;
-  background: #090909;
-  border-top-right-radius: 70px;
-  border-bottom-right-radius: 70px;
-  box-shadow: 5px 5px 10px #bebebe;
+  height: 100px;
   transition: 0.2s ease-in-out;
 }
 .box2 {
