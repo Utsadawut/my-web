@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     <div>
-      <ul class="d-flex">
+      <ul class="">
         <th class="headText2">ยินดีต้อนรับเข้าสู่</th>
         <th class="headText">หลักสูตรปัญญาอารยะ</th>
       </ul>
