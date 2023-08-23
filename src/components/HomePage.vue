@@ -245,7 +245,7 @@
   transition: 0.2s ease-in-out;
 }
 .card3 {
-  width: 1500px;
+  width: 100%;
   height: 200px;
   background: #1a1a1a;
   border-top-right-radius: 70px;
