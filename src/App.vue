@@ -5,7 +5,7 @@
       class="navbar navbar-dark justify-content-between flex-nowrap flex-row"
       style="background-color: #4db6ac"
     >
-      <div class="container-fluid">
+      <div class="container-fluid content-heading">
         <router-link
         @click="logout"
           to="/"
@@ -21,12 +21,10 @@
           <router-link
             v-if="btnLoginShowing"
             :to="`/login`"
-            class="btn btn-warning button2 fw-bold"
+            class="btn btn-warning button3 fw-bold"
             style="
-              padding: 0.75rem 1.5rem;
               background-color: #f9a825;
               color: #ffffff;
-              font-size: 1rem;
             "
           >
             เข้าสู่ระบบ
@@ -34,12 +32,11 @@
           <router-link
             v-if="btnRegisterShowing"
             :to="`/register`"
-            class="btn btn-warning button2 fw-bold"
+            class="btn btn-warning button3 fw-bold"
             style="
               padding: 0.75rem 1.5rem;
               background-color: #009688;
               color: #ffffff;
-              font-size: 1rem;
             "
           >
             สมัครสมาชิก
@@ -48,12 +45,10 @@
             v-if="btnLogoutShowing"
             @click="logout"
             :to="`/`"
-            class="btn btn-danger button2"
+            class="btn btn-danger button3"
             style="
-              padding: 0.75rem 1.5rem;
               background-color: #e84e40;
               color: #ffffff;
-              font-size: 1rem;
             "
           >
             ออกจากระบบ
@@ -214,6 +209,24 @@
   cursor: pointer;
   outline: none;
 }
+.button3 {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 0.6em 2em;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 550;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
 
 .button2:hover {
   background-color: #23c483;
@@ -259,6 +272,18 @@
   color: white;
   text-align: center;
 }
+/***************** #content ******************/
+.content-heading{
+  width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .button3 {
+  font-size: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+}
+
 </style>
 <script>
 //import axios from "axios";

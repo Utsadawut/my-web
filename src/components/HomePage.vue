@@ -12,151 +12,173 @@
         >
         <ul>
           <tr>
-            <div
-              id="carouselExampleFade"
-              class="card carousel slide carousel-fade position d-inline-flex"
-              style="width: 18rem"
-            >
-              <div class="carousel-inner img">
-                <div class="carousel-item active">
-                  <img
-                    src="../image/1/189726_0.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
+            <div class="content-group-img">
+              <div
+                id="carouselExampleFade"
+                class="card carousel slide carousel-fade position d-inline-flex"
+              >
+                <div class="carousel-inner img">
+                  <div class="carousel-item active">
+                    <img
+                      src="../image/1/189726_0.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    กิจกรรมการเรียนการขอน โครงการปัญญาอารยะ โรงเรียนวัดเวฬุวัน
+                    จ.จันทบุรี
+                  </p>
                 </div>
               </div>
-              <div class="card-body">
-                <p class="card-text">
-                  กิจกรรมการเรียนการขอน โครงการปัญญาอารยะ โรงเรียนวัดเวฬุวัน
-                  จ.จันทบุรี
-                </p>
-              </div>
-            </div>
 
-            <div
-              id="carouselExampleFade"
-              class="card carousel slide carousel-fade position d-inline-flex mb-4"
-              style="width: 18rem"
-            >
-              <div class="carousel-inner img">
-                <div class="carousel-item active">
-                  <img src="../image/2/2.jpg" class="card-img-top" alt="..." />
+              <div
+                id="carouselExampleFade"
+                class="card carousel slide carousel-fade position d-inline-flex mb-4"
+              >
+                <div class="carousel-inner img">
+                  <div class="carousel-item active">
+                    <img
+                      src="../image/2/2.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    กิจกรรมการเรียนการขอน โครงการปัญญาอารยะ โรงเรียนบ้านมาบโอน
+                    จ.จันทบุรี
+                  </p>
                 </div>
               </div>
-              <div class="card-body">
-                <p class="card-text">
-                  กิจกรรมการเรียนการขอน โครงการปัญญาอารยะ โรงเรียนบ้านมาบโอน
-                  จ.จันทบุรี
-                </p>
-              </div>
-            </div>
 
-            <div
-              id="carouselExampleFade"
-              class="card carousel slide carousel-fade position d-inline-flex mb-4"
-              style="width: 18rem"
-            >
-              <div class="carousel-inner img">
-                <div class="carousel-item active">
-                  <img src="../image/3/1.jpg" class="card-img-top" alt="..." />
+              <div
+                id="carouselExampleFade"
+                class="card carousel slide carousel-fade position d-inline-flex mb-4"
+              >
+                <div class="carousel-inner img">
+                  <div class="carousel-item active">
+                    <img
+                      src="../image/3/1.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    กิจกรรมการเรียนการขอน โครงการปัญญาอารยะ โรงเรียนสฤษดิเดช
+                    จ.จันทบุรี
+                  </p>
                 </div>
               </div>
-              <div class="card-body">
-                <p class="card-text">
-                  กิจกรรมการเรียนการขอน โครงการปัญญาอารยะ โรงเรียนสฤษดิเดช
-                  จ.จันทบุรี
-                </p>
-              </div>
-            </div>
 
-            <div
-              id="carouselExampleFade"
-              class="card carousel slide carousel-fade position d-inline-flex mb-4"
-              style="width: 18rem"
-            >
-              <div class="carousel-inner img">
-                <div class="carousel-item active">
-                  <img src="../image/4/1.jpg" class="card-img-top" alt="..." />
+              <div
+                id="carouselExampleFade"
+                class="card carousel slide carousel-fade position d-inline-flex mb-4"
+              >
+                <div class="carousel-inner img">
+                  <div class="carousel-item active">
+                    <img
+                      src="../image/4/1.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    กิจกรรมการเรียนการขอน โครงการปัญญาอารยะ โรงเรียนวัดเกาะโตนด
+                    จ.จันทบุรี
+                  </p>
                 </div>
               </div>
-              <div class="card-body">
-                <p class="card-text">
-                  กิจกรรมการเรียนการขอน โครงการปัญญาอารยะ โรงเรียนวัดเกาะโตนด
-                  จ.จันทบุรี
-                </p>
-              </div>
-            </div>
 
-            <div
-              id="carouselExampleFade"
-              class="card carousel slide carousel-fade position d-inline-flex mb-4"
-              style="width: 18rem"
-            >
-              <div class="carousel-inner img">
-                <div class="carousel-item active">
-                  <img src="../image/5/1.jpg" class="card-img-top" alt="..." />
+              <div
+                id="carouselExampleFade"
+                class="card carousel slide carousel-fade position d-inline-flex mb-4"
+              >
+                <div class="carousel-inner img">
+                  <div class="carousel-item active">
+                    <img
+                      src="../image/5/1.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    กิจกรรมการเรียนการขอน โครงการปัญญาอารยะ
+                    โรงเรียนวัดโพธิ์ลังกา จ.จันทบุรี
+                  </p>
                 </div>
               </div>
-              <div class="card-body">
-                <p class="card-text">
-                  กิจกรรมการเรียนการขอน โครงการปัญญาอารยะ โรงเรียนวัดโพธิ์ลังกา
-                  จ.จันทบุรี
-                </p>
-              </div>
-            </div>
 
-            <div
-              id="carouselExampleFade"
-              class="card carousel slide carousel-fade position d-inline-flex mb-4"
-              style="width: 18rem"
-            >
-              <div class="carousel-inner img">
-                <div class="carousel-item active">
-                  <img src="../image/6/1.jpg" class="card-img-top" alt="..." />
+              <div
+                id="carouselExampleFade"
+                class="card carousel slide carousel-fade position d-inline-flex mb-4"
+              >
+                <div class="carousel-inner img">
+                  <div class="carousel-item active">
+                    <img
+                      src="../image/6/1.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    กิจกรรมการเรียนการขอน โครงการปัญญาอารยะ โรงเรียนศรียานุศร
+                    จ.จันทบุรี
+                  </p>
                 </div>
               </div>
-              <div class="card-body">
-                <p class="card-text">
-                  กิจกรรมการเรียนการขอน โครงการปัญญาอารยะ โรงเรียนศรียานุศร
-                  จ.จันทบุรี
-                </p>
-              </div>
-            </div>
 
-            <div
-              id="carouselExampleFade"
-              class="card carousel slide carousel-fade position d-inline-flex mb-4"
-              style="width: 18rem"
-            >
-              <div class="carousel-inner img">
-                <div class="carousel-item active">
-                  <img src="../image/6/2.jpg" class="card-img-top" alt="..." />
+              <div
+                id="carouselExampleFade"
+                class="card carousel slide carousel-fade position d-inline-flex mb-4"
+              >
+                <div class="carousel-inner img">
+                  <div class="carousel-item active">
+                    <img
+                      src="../image/6/2.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    กิจกรรมการเรียนการขอน โครงการปัญญาอารยะ
+                    โรงเรียนสตรีวิทยาอุปถัมภ์ 2 จ.จันทบุรี
+                  </p>
                 </div>
               </div>
-              <div class="card-body">
-                <p class="card-text">
-                  กิจกรรมการเรียนการขอน โครงการปัญญาอารยะ
-                  โรงเรียนสตรีวิทยาอุปถัมภ์ 2 จ.จันทบุรี
-                </p>
-              </div>
-            </div>
 
-            <div
-              id="carouselExampleFade"
-              class="card carousel slide carousel-fade position d-inline-flex mb-4"
-              style="width: 18rem"
-            >
-              <div class="carousel-inner img">
-                <div class="carousel-item active">
-                  <img src="../image/6/3.jpg" class="card-img-top" alt="..." />
+              <div
+                id="carouselExampleFade"
+                class="card carousel slide carousel-fade position d-inline-flex mb-4"
+              >
+                <div class="carousel-inner img">
+                  <div class="carousel-item active">
+                    <img
+                      src="../image/6/3.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
                 </div>
-              </div>
-              <div class="card-body">
-                <p class="card-text">
-                  กิจกรรมการเรียนการขอน โครงการปัญญาอารยะ โรงเรียนวัดหนองชิ่ม
-                  จ.จันทบุรี
-                </p>
+                <div class="card-body">
+                  <p class="card-text">
+                    กิจกรรมการเรียนการขอน โครงการปัญญาอารยะ โรงเรียนวัดหนองชิ่ม
+                    จ.จันทบุรี
+                  </p>
+                </div>
               </div>
             </div>
           </tr>
@@ -212,6 +234,10 @@
   </div>
 </template>
 <style scoped>
+.content-group-img {
+  align-self: center;
+  width: 100%;
+}
 .box {
   width: 100px;
   height: 130px;
