@@ -194,23 +194,22 @@
             <div class="d-flex justify-content-center">
               <tr>
                 <div class="flip-card">
-                <div class="box"></div>
-                <div class="flip-card-inner">
-                  <div class="flip-card-front" id="imageFp51"></div>
-                  <div class="flip-card-back" id="imageFp52"></div>
+                  <div class="box"></div>
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front" id="imageFp51"></div>
+                    <div class="flip-card-back" id="imageFp52"></div>
+                  </div>
                 </div>
-              </div>
               </tr>
               <tr>
                 <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front" id="imageFp21"></div>
-                  <div class="flip-card-back" id="imageFp22"></div>
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front" id="imageFp21"></div>
+                    <div class="flip-card-back" id="imageFp22"></div>
+                  </div>
                 </div>
-              </div>
               </tr>
-              
-              
+
               <div class="flip-card">
                 <div class="box"></div>
                 <div class="flip-card-inner">
@@ -481,49 +480,67 @@
 /***************** #content ******************/
 @media only screen and (max-width: 480px) {
   .bar {
-  font-size: 12px;
-}
-.content-group-img{
-  grid-template-columns: 1fr;
-}
-.card{
-  justify-items: center;
-  margin-left: 0;
-  margin-right: 5px;
-  width: 130px;
-  height: 160px;
-  font-size: 7px;
-  align-items: center;
-}
-.card2{
-  height: 50%;
-}
-.box2{
+    font-size: 12px;
+  }
+  .content-group-img {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    justify-items: center;
+    margin-left: 0;
+    margin-right: 5px;
+    width: 130px;
+    height: 160px;
+    font-size: 7px;
+    align-items: center;
+  }
+  .card2 {
+    height: 50%;
+  }
+  .box2 {
     width: 0;
-  height: 0;
-
+    height: 0;
+  }
+  .box3 {
+    width: 0;
+    height: 0;
+  }
+  .textHard {
+    font-size: 1.9rem;
+  }
+  .testTille {
+    font-size: 1.4rem;
+  }
+  .flip-card {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 4px;
+    align-items: center;
+  }
+  .box {
+    width: 0;
+    height: 0;
+  }
 }
-.box3{
-  width: 0;
-  height: 0;
-
-}
-.textHard{
-  font-size: 1.9rem;
-}
-.testTille{
-  font-size: 1.4rem;
-}
-.flip-card {
-  width: 150px;
-  height: 150px;
-  margin-bottom: 4px;
-  align-items: center;
-}
-.box{
-  width: 0;
-  height: 0;
-}
-  
+@media only screen and (max-width: 1024px) {
+  .box {
+    width: 0;
+    height: 0;
+  }
+  .box2 {
+    width: 200px;
+    height: 50px;
+  }
+  .box3 {
+    width: 100px;
+    height: 50px;
+  }
+  .card {
+    justify-items: center;
+    margin-left: 0;
+    margin-right: 5px;
+    font-size: 15px;
+    align-items: center;
+  }
 }
 </style>
