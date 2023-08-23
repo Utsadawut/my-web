@@ -15,7 +15,7 @@
             <div class="content-group-img">
               <div
                 id="carouselExampleFade"
-                class="card carousel slide carousel-fade position d-inline-flex"
+                class="card carousel slide carousel-fade position d-inline-flex mb-4"
               >
                 <div class="carousel-inner img">
                   <div class="carousel-item active">
@@ -191,20 +191,26 @@
               กิจกรรมสร้างสรรค์ คู่คุณธรรม
             </h1>
             <h1 class="testTille ps-5 fw-bold">จากหลักสูตรปัญญาอารยะ</h1>
-            <li class="d-flex">
-              <div class="flip-card">
+            <div class="d-flex justify-content-center">
+              <tr>
+                <div class="flip-card">
                 <div class="box"></div>
                 <div class="flip-card-inner">
                   <div class="flip-card-front" id="imageFp51"></div>
                   <div class="flip-card-back" id="imageFp52"></div>
                 </div>
               </div>
-              <div class="flip-card">
+              </tr>
+              <tr>
+                <div class="flip-card">
                 <div class="flip-card-inner">
                   <div class="flip-card-front" id="imageFp21"></div>
                   <div class="flip-card-back" id="imageFp22"></div>
                 </div>
               </div>
+              </tr>
+              
+              
               <div class="flip-card">
                 <div class="box"></div>
                 <div class="flip-card-inner">
@@ -225,7 +231,7 @@
                   <div class="flip-card-back" id="imageFp11"></div>
                 </div>
               </div>
-            </li>
+            </div>
           </div>
         </div>
         <div class="card3 position-absolute start-0"></div>
@@ -387,7 +393,8 @@
   height: 350px;
   perspective: 1000px;
   font-family: sans-serif;
-  margin-left: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .title {
@@ -469,5 +476,54 @@
   background-size: cover;
   color: white;
   transform: rotateY(180deg);
+}
+
+/***************** #content ******************/
+@media only screen and (max-width: 480px) {
+  .bar {
+  font-size: 12px;
+}
+.content-group-img{
+  grid-template-columns: 1fr;
+}
+.card{
+  justify-items: center;
+  margin-left: 0;
+  margin-right: 5px;
+  width: 130px;
+  height: 160px;
+  font-size: 7px;
+  align-items: center;
+}
+.card2{
+  height: 50%;
+}
+.box2{
+    width: 0;
+  height: 0;
+
+}
+.box3{
+  width: 0;
+  height: 0;
+
+}
+.textHard{
+  font-size: 1.9rem;
+}
+.testTille{
+  font-size: 1.4rem;
+}
+.flip-card {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 4px;
+  align-items: center;
+}
+.box{
+  width: 0;
+  height: 0;
+}
+  
 }
 </style>

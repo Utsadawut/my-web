@@ -7,7 +7,7 @@
     >
       <div class="container-fluid content-heading">
         <router-link
-        @click="logout"
+          @click="logout"
           to="/"
           class="navbar-brand float-left fw-bold fs-2 text-align: center;"
         >
@@ -22,10 +22,7 @@
             v-if="btnLoginShowing"
             :to="`/login`"
             class="btn btn-warning button3 fw-bold"
-            style="
-              background-color: #f9a825;
-              color: #ffffff;
-            "
+            style="background-color: #f9a825; color: #ffffff"
           >
             เข้าสู่ระบบ
           </router-link>
@@ -33,11 +30,7 @@
             v-if="btnRegisterShowing"
             :to="`/register`"
             class="btn btn-warning button3 fw-bold"
-            style="
-              padding: 0.75rem 1.5rem;
-              background-color: #009688;
-              color: #ffffff;
-            "
+            style="background-color: #009688; color: #ffffff"
           >
             สมัครสมาชิก
           </router-link>
@@ -45,17 +38,15 @@
             v-if="btnLogoutShowing"
             @click="logout"
             :to="`/`"
-            class="btn btn-danger button3"
-            style="
-              background-color: #e84e40;
-              color: #ffffff;
-            "
+            class="btn btn-danger button3 fw-bold"
+            style="background-color: #e84e40; color: #ffffff"
           >
             ออกจากระบบ
           </router-link>
         </ul>
       </div>
     </nav>
+    <i class="fas fa-sign-in-alt"></i>
 
     <nav
       id="navbarfooterfixed"
@@ -74,7 +65,10 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse position-absolute top-0 end-0 me-5 mt-4" id="navbarSupportedContent">
+        <div
+          class="collapse navbar-collapse position-absolute top-0 end-0 me-5 mt-4"
+          id="navbarSupportedContent"
+        >
           <ul class="nav-item ms-auto">
             <router-link
               v-if="btnListHomeShowing"
@@ -235,6 +229,16 @@
   transform: translateY(-2px);
 }
 
+.button3:active {
+  transform: translateY(-1px);
+}
+.button3:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
 .button2:active {
   transform: translateY(-1px);
 }
@@ -273,17 +277,30 @@
   text-align: center;
 }
 /***************** #content ******************/
-.content-heading{
-  width: 100%;
-}
 
 @media only screen and (max-width: 480px) {
+  .navbar {
+    height: auto;
+  }
+  .content-heading {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
   .button3 {
-  font-size: 0.5rem;
-  padding: 0.5rem 1rem;
+    letter-spacing: 0px;
+    font-size: 7px;
+    padding: 0.5rem 1.5rem;
+  }
+  .button2 {
+    letter-spacing: 0px;
+  }
+  .button {
+    letter-spacing: 0px;
+  }
+  .menu {
+    grid-template-columns: 1fr;
+  }
 }
-}
-
 </style>
 <script>
 //import axios from "axios";
@@ -326,23 +343,23 @@ export default {
       this.btnRegisterShowing = true;
       this.btnLogoutShowing = false;
       this.menuShowing = false;
-      this.btnListHomeShowing= true;
+      this.btnListHomeShowing = true;
     },
     checkbtnShow(value) {
       if (value.page == "login") {
-        this.btnListHomeShowing= false;
+        this.btnListHomeShowing = false;
         this.btnLoginShowing = false;
         this.btnRegisterShowing = true;
         this.btnLogoutShowing = false;
         console.log(value.page);
       } else if (value.page == "register") {
-        this.btnListHomeShowing= false;
+        this.btnListHomeShowing = false;
         this.btnRegisterShowing = false;
         this.btnLoginShowing = true;
         this.btnLogoutShowing = false;
         console.log(value.page);
       } else if (value.page == "loginsuccess") {
-        this.btnListHomeShowing= false;
+        this.btnListHomeShowing = false;
         this.btnRegisterShowing = false;
         this.btnLoginShowing = false;
         this.btnLogoutShowing = true;
