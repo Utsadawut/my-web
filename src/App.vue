@@ -207,7 +207,7 @@
   margin-right: 2px;
   padding: 0.6rem 2rem;
   text-transform: uppercase;
-  letter-spacing: 2.5px;
+  letter-spacing: 0px;
   font-weight: 550;
   color: #000;
   background-color: #fff;
@@ -252,7 +252,7 @@
   padding: 0.5rem 1.5rem;
   background-color: #26a69a;
   color: #ffffff;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   font-size: 0.8rem;
   font-weight: 700;
   text-align: center;

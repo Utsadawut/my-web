@@ -488,7 +488,7 @@
     height: 60px;
   }
   .box3 {
-    width: 270px;
+    width: 240px;
     height: 60px;
   }
   .card {
@@ -524,7 +524,7 @@
     height: 60px;
   }
   .box3 {
-    width: 270px;
+    width: 240px;
     height: 60px;
   }
   .card {
