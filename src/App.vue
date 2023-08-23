@@ -200,7 +200,7 @@
 .button2 {
   margin-left: 2px;
   margin-right: 2px;
-  padding: 0.8em 2em;
+  padding: 0.6em 2em;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 2.5px;

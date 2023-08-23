@@ -161,7 +161,7 @@
             </div>
           </tr>
         </ul>
-        <div class="card2">
+        <div class="card2 end-0">
           <div class="section-content">
             <div class="box2 position-absolute mt-3 end-0"></div>
             <div class="box3 position-absolute mt-5 end-0"></div>
@@ -250,7 +250,6 @@
   transition: 0.2s ease-in-out;
 }
 .box2 {
-  margin-bottom: 3rem;
   width: 500px;
   height: 100px;
   background: #2f9f94;
@@ -259,7 +258,6 @@
 }
 .box3 {
   opacity: 0.6;
-  margin-bottom: 3rem;
   width: 300px;
   height: 100px;
   background: #b2dfdb;
