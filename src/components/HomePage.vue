@@ -162,9 +162,9 @@
           </tr>
         </ul>
         <div class="card2">
-          <div class="box2 position-absolute mt-3 end-0"></div>
-          <div class="box3 position-absolute mt-5 end-0"></div>
           <div class="section-content">
+            <div class="box2 position-absolute mt-3 end-0"></div>
+            <div class="box3 position-absolute mt-5 end-0"></div>
             <h1 class="textHard pt-5 ps-5 fw-bold">
               กิจกรรมสร้างสรรค์ คู่คุณธรรม
             </h1>
@@ -236,10 +236,11 @@
 
 .card2 {
   margin-bottom: 3rem;
-  width: 1600px;
+  width: 100%;
   height: 700px;
   background: #4db6ac;
-  border-radius: 70px;
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 70px;
   box-shadow: 5px 5px 10px #bebebe;
   transition: 0.2s ease-in-out;
 }
@@ -257,9 +258,8 @@
   width: 500px;
   height: 100px;
   background: #2f9f94;
-  border-radius: 100px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
 }
 .box3 {
   opacity: 0.6;
@@ -267,9 +267,8 @@
   width: 300px;
   height: 100px;
   background: #b2dfdb;
-  border-radius: 100px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
 }
 
 .img {
