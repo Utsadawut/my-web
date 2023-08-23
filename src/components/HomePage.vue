@@ -478,6 +478,43 @@
 }
 
 /***************** #content ******************/
+@media only screen and (max-width: 1024px) {
+  .box {
+    width: 50px;
+    height: 70px;
+  }
+  .box2 {
+    width: 250px;
+    height: 50px;
+  }
+  .box3 {
+    width: 150px;
+    height: 50px;
+  }
+  .card {
+    justify-items: center;
+    margin-left: 7px;
+    margin-right: 7px;
+    font-size: 15px;
+    align-items: center;
+  }
+  .card2 {
+    height: 125%;
+  }
+  .flip-card {
+    width: 150px;
+    height: 220px;
+    margin-bottom: 4px;
+    align-items: center;
+  }
+    .textHard {
+    font-size: 2.2rem;
+  }
+  .testTille {
+    font-size: 1.6rem;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .bar {
     font-size: 12px;
@@ -522,25 +559,5 @@
     height: 0;
   }
 }
-@media only screen and (max-width: 1024px) {
-  .box {
-    width: 0;
-    height: 0;
-  }
-  .box2 {
-    width: 200px;
-    height: 50px;
-  }
-  .box3 {
-    width: 100px;
-    height: 50px;
-  }
-  .card {
-    justify-items: center;
-    margin-left: 0;
-    margin-right: 5px;
-    font-size: 15px;
-    align-items: center;
-  }
-}
+
 </style>

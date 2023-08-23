@@ -190,7 +190,6 @@
   padding: 0.6em 2em;
   font-size: 13px;
   text-transform: uppercase;
-  letter-spacing: 2.5px;
   font-weight: 550;
   color: #000;
   background-color: #fff;
