@@ -75,9 +75,9 @@ export default {
               users: res.data[0],
             });
             this.$router.push({ path: "/aboutuser" });
-            window.alert("login success");
+            window.alert("เข้าสู่ระบบสำเร็จ");
           } else {
-            window.alert("nouser!!");
+            window.alert("ไม่มีผู้ใช้นี้ ตรวจสอบชื่อและรหัสผ่านอีกครั้ง!!");
           }
         })
         .catch((error) => {
